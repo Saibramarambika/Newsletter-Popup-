@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+html{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+
+.sec1{
+    background-image: url("../Assets/Pattern.png");
+    background-color: blue;
+    height: 10rem;
+    h2{
+        text-align: center;
+        padding-top: 3rem;
+        color: white;
+    }
+}
+.sec2{
+    p{
+        text-align: center;
+        color: gray;
+    }
+    .para2{
+        text-align: left;
+    }
+    input{
+        border-radius: 0.3rem;
+        border-style: solid;
+        height: 2rem;
+        width: 15rem;
+    }
+    button{
+        border-radius: 0.3rem;
+        border-style: solid;
+        color: white;
+        background-color: blue;
+        height: 2.3rem;
+    }
+}
+
+.sec3{
+    padding-top: 2rem;
+    img{
+        float: left;
+        text-align: center;
+    }
+    h3{
+        float: right;
+        padding-left: 0px;
+        text-align: center;
+    }
+    p{
+        float: right;
+        color: gray;
+    }
+}
+
+@media screen and (min-width:426px) {
+    body{
+        background-image: url("../Assets/Background.png");
+        background-repeat: no-repeat;
+        padding-top: 10rem;
+        padding-left: 30rem;
+        padding-right: 30rem;
+        border-radius: 0.3rem;
+        .sec2{
+            background-color: white;
+        }
+        .sec3{
+            height: 20rem;
+            img h3 p{
+                background-color: white;
+            }
+            
+        }
+    }
+}

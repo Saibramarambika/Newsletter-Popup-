@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+
+.sec1 {
+  background-image: url("../Assets/Pattern.png");
+  background-color: blue;
+  height: 10rem;
+}
+
+.sec1 h2 {
+  text-align: center;
+  padding-top: 3rem;
+  color: white;
+}
+
+.sec2 p {
+  text-align: center;
+  color: gray;
+}
+
+.sec2 .para2 {
+  text-align: left;
+}
+
+.sec2 input {
+  border-radius: 0.3rem;
+  border-style: solid;
+  height: 2rem;
+  width: 15rem;
+}
+
+.sec2 button {
+  border-radius: 0.3rem;
+  border-style: solid;
+  color: white;
+  background-color: blue;
+  height: 2.3rem;
+}
+
+.sec3 {
+  padding-top: 2rem;
+}
+
+.sec3 img {
+  float: left;
+  text-align: center;
+}
+
+.sec3 h3 {
+  float: right;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.sec3 p {
+  float: right;
+  color: gray;
+}
+
+@media screen and (min-width: 426px) {
+  body {
+    background-image: url("../Assets/Background.png");
+    background-repeat: no-repeat;
+    padding-top: 10rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    border-radius: 0.3rem;
+  }
+  body .sec2 {
+    background-color: white;
+  }
+  body .sec3 {
+    height: 20rem;
+  }
+  body .sec3 img h3 p {
+    background-color: white;
+  }
+}
+/*# sourceMappingURL=style.css.map */
